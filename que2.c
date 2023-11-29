@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 int main(){
     
     int a,b;
@@ -11,11 +9,11 @@ int main(){
     printf("Enter value of second number\n");
     scanf("%d",&b);
 
-    if (b<a){
-        printf ("The minimum Value is %d", b);
+    if (a>b){
+        printf ("The maximum Value is %d", a);
 
         
-    }else{ printf("The maximum Value is %d" , a);
+    }else{ printf("The minimum Value is %d" , b);
 
     }
 }
