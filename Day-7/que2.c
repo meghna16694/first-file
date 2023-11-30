@@ -13,20 +13,20 @@ int main(){
     printf("Enter value of c:  \n");
     scanf("%d",&c);
 
-    if(a<b){
-        if(a<c){
-            printf("A is minimum%d",a);
+    if(a>b){
+        if(a>c){
+            printf("A is maximum%d",a);
         
 
     }else{
-        printf("C is minimum%d",c);
+        printf("C is macimum%d",c);
     }
 
     }else{
-        if(b<c){
-            printf("B is minimum:%d",b);
+        if(b>c){
+            printf("B is max:%d",b);
         }else{
-            printf("C is minimum:%d",c);
+            printf("C is max:%d",c);
         }
     }
 
